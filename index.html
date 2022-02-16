@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lising</title>
+    <link rel="#" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- <link rel="stylesheet" href="./assets/css/responsive.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/slick/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script defer src="./assets/script/jquery-3.6.0.min.js "></script>
+    <script defer src="./assets/script/inputmask.min.js"></script>
+    <script defer src="./assets/script/just-validate.min.js"></script>
+    <script defer src="./assets/script/slick.min.js "></script>
+    <script defer src="./assets/script/main.js "></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__logo">
+                    <a href="#"><img src="./assets/img/logo.svg" alt="logo" class="header__img"></a>
+                </div>
+                <header class="header__menu">
+                    <nav class="header__nav">
+                        <a href="#object" class="header__item">Услуги</a>
+                        <a href="#condition" class="header__item">Программа</a>
+                        <a href="#completed" class="header__item">Сделки</a>
+                        <a href="#parther" class="header__item">Партнеры</a>
+                        <a href="#company" class="header__item">Компания</a>
+                        <a href="#connect" class="header__item">Контакты</a>
+                    </nav>
+                    <div class="header__mobile">
+                        <div class="header__mobile-adress">г. Москва, Очаковское шоссе, д. 36, стр. 2</div>
+                        <div class="header__mobile-tel">Тел.:&nbsp;<a class="white-link" href="tel:+74951091579">+7
+                            (495)
+                            109-15-79</a></div>
+                        <div class="header__mobile">E-mail:&nbsp;<a class="white-link" href="mailto:info@rs-leasing.ru">info@rs-leasing.ru</a></div>
+                    </div>
+                    <div class="header__mobile">© 2021 РС Лизинг</div>
+                </header>
+                <div class="header__menu-burger">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#object" class="header__item burger__item">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#condition" class="header__item burger__item">Программы</a>
+                        </li>
+                        <li>
+                            <a href="#completed" class="header__item burger__item">Сделки</a>
+                        </li>
+                        <li>
+                            <a href="#parther" class="header__item burger__item">Партнеры</a>
+                        </li>
+                        <li>
+                            <a href="#company" class="header__item burger__item">Компания</a>
+                        </li>
+                        <li>
+                            <a href="#connect" class="header__item burger__item">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__contact">
+                    <i class="header__phone-ico"></i>
+                    <a href="tel:+74951091579">+7 (495) 109-15-79</a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="banner">
+                <div class="banner__container container">
+                    <h1 class="banner__title">Лизинг коммерческой недвижимости</h1>
+                    <div class="banner__buttons">
+                        <button type="button" class="banner__buttons-application btn startPop">Оставить заявку</button>
+                        <button type="button" class="banner__buttons-calc btn startPop">Получить расчёт</button>
+                    </div>
+                </div>
+            </section>
+            <section id="object" class="object">
+                <div class="object__container container">
+                    <h2 class="object__title _title">Коммерческие объекты</h2>
+                    <span class="object__text">Компания РС Лизинг предлагает возможности по приобретению в лизинг различных объектов коммерческой недвижимости:</span>
+                    <div class="object__items">
+                        <div class="object__item">
+                            <div class="object__img">
+                                <img src="./assets/img/tizer/office.svg" alt="office">
+                            </div>
+                            <span class="obj__name">Офисные помещения</span>
+                        </div>
+                        <div class="object__item">
+                            <div class="object__img">
+                                <img src="./assets/img/tizer/shop.svg" alt="shop">
+                            </div>
+                            <span class="obj__name">Торговые комплексы</span>
+                        </div>
+                        <div class="object__item">
+                            <div class="object__img">
+                                <img src="./assets/img/tizer/sklad.svg" alt="sklad">
+                            </div>
+                            <span class="obj__name">Складкие комплексы</span>
+                        </div>
+                        <div class="object__item">
+                            <div class="object__img">
+                                <img src="./assets/img/tizer/ceh.svg" alt="ceh">
+                            </div>
+                            <span class="obj__name">Производственные цеха</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lizing">
+                <div class="lizing__container container">
+                    <h2 class="lizing__title _title">Виды лизинга объектов</h2>
+                    <div class="lizing__wrap">
+                        <div class="lizing__item">
+                            <img src="./assets/img/object/dogovor.jpg" alt="dogovor" class="lizing__img">
+                            <h3 class="lizing__span">Финансирование сделок по приобретению новых объектов недвижимого имущества</h3>
+                        </div>
+                        <div class="lizing__item">
+                            <h3 class="lizing__span lizing__span-2">Рефинансирование сделок по уже приобретенному недвижимому имуществу (возвратный лизинг)</h3>
+                            <img src="./assets/img/object/notebook.jpg" alt="notebook" class="lizing__img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="condition" class="condition">
+                <div class="condition__container container">
+                    <h2 class="condition__title _title">Условия лизинга объектов недвижимости</h2>
+                    <div class="condition__wrap">
+                        <div class="condition__col-1">
+                            <div class="condition__item">Предмет лизинга</div>
+                            <div class="condition__item">Характеристики лизинга</div>
+                            <div class="condition__item">Стоимость объекта</div>
+                            <div class="condition__item">Валюта</div>
+                            <div class="condition__item">Срок лизинга</div>
+                            <div class="condition__item">Авансовый платеж</div>
+                            <div class="condition__item">Срок рассмотрения заявки</div>
+                            <div class="condition__item">Возможность досрочного погашения</div>
+                            <div class="condition__item">График платежей</div>
+                            <div class="condition__item">Пакет документов</div>
+                            <div class="condition__item">Страхование объекта</div>
+                        </div>
+                        <div class="condition__col-2">
+                            <div class="condition__item">коммерческая недвижимость</div>
+                            <div class="condition__item">приобретается у юридического лица</div>
+                            <div class="condition__item">от 50 000 000 Р</div>
+                            <div class="condition__item">RUB</div>
+                            <div class="condition__item">до 10 лет</div>
+                            <div class="condition__item">от 20%</div>
+                            <div class="condition__item">от 5 до 10 рабочих дней</div>
+                            <div class="condition__item">есть</div>
+                            <div class="condition__item">аннуитет, дифференцированный</div>
+                            <div class="condition__item">Стандартный</div>
+                            <div class="condition__item">Обязательное</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="calc">
+                <div class="calc__container container">
+                    <h2 class="calc__title _title">Расчитать лизинг</h2>
+                    <span class="calc__text">Просто отправьте заявку и наш специалист свяжется с Вами, проконсультирует и подберёт выгодную и подходящую по условиям лизинговую программу.</span>
+                    <div class="calc__body">
+                        <form action="#" class="calc__form form">
+                            <input type="text" name="name" class="req" placeholder="Имя, фамилия *" required>
+                            <input type="tel" name="tel" class="req phone" placeholder="+7 ___ ___ __ __ *" required>
+                            <input type="mail" name="mail" class="req mail" placeholder="E-mail *" required>
+                            <input type="text" name="cost" class="req" placeholder="Стоимость объекта *" required>
+                            <div class="calc__check">
+                                <input id="form__checkbox" id="check" checked type="checkbox" name="pers-data" class="form__check req">
+                                <label for="form__checkbox">Согласие на обработку&nbsp;<a href="#">персональных данных</a></label>
+
+                            </div>
+                            <button type="submit" class="form__btn-calc">Оставить заявку</button>
+                        </form>
+                        <div class="calc__img-wrap">
+                            <img src="./assets/img/calc/lizing.jpg" alt="lizing" class="calc__img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advantage">
+                <div class="advantage__container container">
+                    <h2 class="advantage__btitle _title">Преимущества сотрудничества</h2>
+                    <div class="advantage__body">
+                        <div class="advantage__item">
+                            <div class="advantage__image-wrap">
+                                <img src="./assets/img/advantages/clock.jpg" alt="advantage-image" class="advantage__image">
+                            </div>
+                            <h3 class="advantage__title">Быстрое оформление сделки</h3>
+                            <span class="advantage__text">Рассмотрение заявки занимает от 5 до 10 рабочих дней, далее оформление необходимых документов, внесение аванса, подписание договора можно начинать пользоваться объектом.</span>
+                        </div>
+                        <div class="advantage__item">
+                            <div class="advantage__image-wrap">
+                                <img src="./assets/img/advantages/doc.jpg" alt="advantage-image" class="advantage__image">
+                            </div>
+                            <h3 class="advantage__title">Выгодные условия</h3>
+                            <span class="advantage__text">Мы предлагаем комфортные и индивидуальные условия лизинга недвижимости для юр.лиц. Размер аванса от 20% стоимости недвижимости, договор финансовой аренды на срок от 1 года.<span>
+                    </div>
+                    <div class="advantage__item">
+                        <div class="advantage__image-wrap">
+                            <img src="./assets/img/advantages/stamp.jpg" alt="advantage-image" class="advantage__image">
+                        </div>
+                        <h3 class="advantage__title">Возможность досрочного выкупа</h3>
+                        <span class="advantage__text">Вы можете вносить платежи по выбранному графику: аннуитетному или дифференцированному, а также досрочно выкупить объект, взятый вами в лизинг.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="client">
+                <div class="client__container container">
+                    <h2 class="client__title _title">Как стать нашим клиентом</h2>
+                    <div class="client__body">
+                        <div class="client__item item-01 _anim-items">
+                            <div class="client__number">01</div>
+                            <div class="client__img-wrap"><img src="./assets/img/svg/clients/home.svg" alt="home" class="client__img"></div>
+                            <span class="client__text">Выбрать объект имущества</span>
+                        </div>
+
+                        <div class="client__item item-02 _anim-items">
+                            <div class="client__number">02</div>
+                            <div class="client__img-wrap">
+                                <img src="./assets/img/svg/clients/phone.svg" alt="phone" class="client__img">
+                            </div>
+                            <span class="client__text">Отправить заявку на сайте или по телефону</span>
+                        </div>
+                        <div class="client__item  item-03 _anim-items">
+                            <div class="client__number">03</div>
+                            <div class="client__img-wrap">
+                                <img src="./assets/img/svg/clients/msg.svg" alt="spech" class="client__img">
+                            </div>
+                            <span class="client__text">Специалист свяжется с Вами и уточнит условия</span>
+                        </div>
+                        <div class="client__item  item-04 _anim-items">
+                            <div class="client__number">04</div>
+                            <div class="client__img-wrap">
+                                <img src="./assets/img/svg/clients/doc.svg" alt="documents" class="client__img">
+                            </div>
+                            <span class="client__text">Предоставить стандартный пакет документов</span>
+                        </div>
+                        <div class="client__item  item-05 _anim-items">
+                            <div class="client__number">05</div>
+                            <div class="client__img-wrap">
+                                <img src="./assets/img/svg/clients/pencil.svg" alt="pencil" class="client__img">
+                            </div>
+                            <span class="client__text">Подписать договор лизинга</span>
+                        </div>
+                        <div class="client__item  item-06 _anim-items">
+                            <div class="client__number">06</div>
+                            <div class="client__img-wrap"><img src="./assets/img/svg/clients/check.svg" alt="check" class="client__img"></div>
+                            <span class="client__text">Получить выбранное имущество</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="completed" id="completed">
+                <div class="completed__container container">
+                    <h2 class="completed__title _title">Проведенные сделки</h2>
+                    <div class="completed__slider">
+                        <!-- <button class="slick-prev slick-arrow" type="button">Previous</button> -->
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/odin.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">МО, Одинцовский район, деревня Лапино, микрорайон Радуга, стр. 70</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">1 389 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Отдельно стоящее здание на 1-ой линии 1-го Успенского шоссе в окружении элитных коттеджных поселков района Рублевки. Формат здания: торговая галерея.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/rubl.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Торгово-деловой комплекс</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Рублёвское ш., 48/1</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">16 655 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный торгово-деловой комплекс, расположенный в престижном районе Москвы, на пересечении Рублевского шоссе и Осеннего бульвара, на расстоянии 50 метров от станции м. Крылатское. ТДК объединяет в себе офисно-деловое
+                                    пространство и сервисно-торговую галерею.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/varsh.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Варшавское шоссе, д.148</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">19 000 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Деловой комплекс класса «В+» общей площадью 19 000 м². Расположен в районе Чертаново Южное (ЮАО), на первой линии крупной московской магистрали - Варшавского шоссе, в пяти минутах ходьбы от метро «Ул. Академика Янгеля».</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/zeml.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Земляной Вал, д. 50А, стр. 3</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">9 250 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный 11-ти этажный деловой комплекс класса «А» в центре Москвы на Садовом кольце, общей площадью 9 250 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/kols.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Кольская, д. 2, к. 4</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">8 800 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Бизнес-центр «В+» класса. 7-ми этажное здание общей площадью 8 800 м². Расположен в Бабушкинском районе Северо-Восточного административного округа города Москвы, в 5 минутах ходьбы от ст. м. Свиблово.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/dmitr.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Дмитровское шоссе, д. 85</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">18 500 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный 6-ти этажный деловой центр класса В+, расположенный на пересечении Дмитровского и Коровинского шоссе, САО. Здание общей площадью 18 500 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/volg.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Волгоградский проспект, д. 32</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">16 000 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Бизнес-центр «В+» класса, расположенный внутри ТТК на пересечении с Волгоградским проспектом. Деловой комплекс состоит из 2 корпусов, общей площадью 16 000 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/prish.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Пришвина, д. 8</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">18 407 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный деловой комплекс класса «В+», расположенный в районе Бибирево (СВАО г. Москвы). Здание состоит из 3-х блоков: основное здание и 2 особняка, общей площадью 18 407 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/odin.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">МО, Одинцовский район, деревня Лапино, микрорайон Радуга, стр. 70</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">1 389 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Отдельно стоящее здание на 1-ой линии 1-го Успенского шоссе в окружении элитных коттеджных поселков района Рублевки. Формат здания: торговая галерея.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/rubl.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Торгово-деловой комплекс</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Рублёвское ш., 48/1</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">16 655 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный торгово-деловой комплекс, расположенный в престижном районе Москвы, на пересечении Рублевского шоссе и Осеннего бульвара, на расстоянии 50 метров от станции м. Крылатское. ТДК объединяет в себе офисно-деловое
+                                    пространство и сервисно-торговую галерею.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/varsh.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Варшавское шоссе, д.148</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">19 000 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Деловой комплекс класса «В+» общей площадью 19 000 м². Расположен в районе Чертаново Южное (ЮАО), на первой линии крупной московской магистрали - Варшавского шоссе, в пяти минутах ходьбы от метро «Ул. Академика Янгеля».</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/zeml.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Земляной Вал, д. 50А, стр. 3</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">9 250 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный 11-ти этажный деловой комплекс класса «А» в центре Москвы на Садовом кольце, общей площадью 9 250 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/kols.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Кольская, д. 2, к. 4</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">8 800 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Бизнес-центр «В+» класса. 7-ми этажное здание общей площадью 8 800 м². Расположен в Бабушкинском районе Северо-Восточного административного округа города Москвы, в 5 минутах ходьбы от ст. м. Свиблово.</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/dmitr.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Дмитровское шоссе, д. 85</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">18 500 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный 6-ти этажный деловой центр класса В+, расположенный на пересечении Дмитровского и Коровинского шоссе, САО. Здание общей площадью 18 500 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/volg.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, Волгоградский проспект, д. 32</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">16 000 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Бизнес-центр «В+» класса, расположенный внутри ТТК на пересечении с Волгоградским проспектом. Деловой комплекс состоит из 2 корпусов, общей площадью 16 000 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/prish.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">г. Москва, ул. Пришвина, д. 8</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">18 407 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Современный деловой комплекс класса «В+», расположенный в районе Бибирево (СВАО г. Москвы). Здание состоит из 3-х блоков: основное здание и 2 особняка, общей площадью 18 407 м².</div>
+                            </div>
+                        </div>
+                        <div class="completed__item">
+                            <div class="lizing-contract__img "><img src="./assets/img/contract/odin.jpg" alt=" "></div>
+                            <div class="lizing-contract__textblock ">
+                                <div class="lizing-contract__subtitle ">Вид объекта</div>
+                                <div class="lizing-contract__text ">Офисное помещение</div>
+                                <div class="lizing-contract__subtitle ">Адрес</div>
+                                <div class="lizing-contract__text ">МО, Одинцовский район, деревня Лапино, микрорайон Радуга, стр. 70</div>
+                                <div class="lizing-contract__subtitle ">Площадь</div>
+                                <div class="lizing-contract__text ">1 389 м²</div>
+                                <div class="lizing-contract__subtitle ">Описание</div>
+                                <div class="lizing-contract__text ">Отдельно стоящее здание на 1-ой линии 1-го Успенского шоссе в окружении элитных коттеджных поселков района Рублевки. Формат здания: торговая галерея.</div>
+                            </div>
+                        </div>
+                        <!-- <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button> -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="parther" class="partner">
+                <div class="partner__container container">
+                    <h2 class="partner__title _title">Проведенные сделки</h2>
+                    <h3 class="parther__subtitle">Нашими партнерами являются крупные организации и ведущие страховые компании России</h3>
+                    <div class="parther__items">
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 801.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 802.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 803.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 804.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 805.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 806.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 808.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 810.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 811.jpg" alt="parther" class="parther__item"></div>
+                        <div class="parther__item-wrap"><img src="./assets/img/partners/Rectangle 812.jpg" alt="parther" class="parther__item"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <div class="question__container container">
+                    <h2 class="question__title _title">Остались вопросы?</h2>
+                    <h3 class="question__subtitle">Просто отправьте заявку и наш специалист свяжется с Вами, проконсультирует и ответит на все вопросы по предоставлению лизинга на объекты коммерческой недвижимости</h3>
+                    <form action="#" class="calc__form form q__form">
+                        <input type="text" name="name" class="req" placeholder="Имя, фамилия *" required>
+                        <input type="tel" name="tel" class="req phone" placeholder="+7 ___ ___ __ __ *" required>
+                        <input type="mail" name="mail" class="req mail" placeholder="E-mail *" required>
+                        <input type="text" name="cost" class="req" placeholder="Стоимость объекта *" required>
+                        <div class="calc__check">
+                            <input id="form__checkbox-2" id="check" checked type="checkbox" name="pers-data" class="form__check req">
+                            <label for="form__checkbox-2">Согласие на обработку&nbsp;<a href="#">персональных данных</a></label>
+                        </div>
+                        <button type="submit" class="form__btn-calc">Оставить заявку</button>
+                    </form>
+                </div>
+            </section>
+            <section id="company" class="company">
+                <div class="company__container container">
+                    <h2 class="lizing-company__title _title">О компании</h2>
+                    <div class="lizing-company__block">
+                        <div class="lizing-company__item lizing-company__logo _anim-items">
+                            <div class="lizing-company__border">
+                                <div class="lizing-company__img">
+                                    <svg class="blue">
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+                                            </svg>
+                                    <svg class="yellow">
+                                                <rect x="0" y="0" fill="none" width="100%" height="100%"></rect>
+                                            </svg>
+                                    <img src="./assets/img/logo_b.svg" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lizing-company__item lizing-company__text">
+                            <p>РС Лизинг — независимая лизинговая компания, специализирующаяся на лизинге недвижимости.
+                            </p>
+
+                            <p>Многолетний опыт работы позволяет нашей компании предлагать клиентам качественные услуги по приобретению и передаче в лизинг различных объектов коммерческой недвижимости.</p>
+
+                            <p>В компании работают квалифицированные специалисты, обеспечивающие высокий уровень оперативности и сервиса, профессиональный подход к требованиям и запросам клиентов.</p>
+
+                            <p>
+                                Приобретение недвижимости — процесс для многих компаний сложный и пугающий с финансовой и юридической точки зрения. Разработанный ООО «Лизинговая компания «РС Лизинг» продукт «Лизинг недвижимости» призван сделать процесс приобретения недвижимости максимально
+                                удобным и простым для клиента.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="connect" class="connect">
+                <div class="connect__container container">
+                    <div class="connect__col-1">
+                        <h2 class="connect__title _title">Связаться с нами</h2>
+                        <div class="connect__adress">
+                            <div class="address_title">Центральный офис</div>
+                            <div class="adress__text">
+                                <p>Адрес: г. Москва, Очаковское шоссе, д. 36, стр. 2</p>
+                                <p>Тел.: +7 (495) 109-15-79</p>
+                                <p>E-mail:&nbsp<a href="mailto:info@rs-leasing.ru" class="footer__mail">info@rs-leasing.ru</a></p>
+                            </div>
+                            <button type="button" class="connect__btn btn startPop">оставить заявку</button>
+                        </div>
+                    </div>
+                    <div class="connect__col-2">
+                        <div class="connect__map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2493234d2c6f649ce457e546c27bf84b1f34e174aa23a47d032467ee6eb659a2&amp;source=constructor" width="500" height="500" frameborder="0"></iframe>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="sub-menu">
+                <div class="sub-menu__container container">
+                    <nav class="footer__nav">
+                        <a href="#object" class="sub-menu__item">Услуги</a>
+                        <a href="#condition" class="sub-menu__item">Программа</a>
+                        <a href="#completed" class="sub-menu__item">Сделки</a>
+                        <a href="#parther" class="sub-menu__item">Партнеры</a>
+                        <a href="#company" class="sub-menu__item">Компания</a>
+                        <a href="#connect" class="sub-menu__item">Контакты</a>
+                    </nav>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__row-1">
+                    <div class="footer__logo">
+                        <img src="./assets/img/logo.svg" alt="" class="footer__logo">
+                    </div>
+                    <div class="footer__contact">
+                        <span class="footer__item">Центральный офис</span>
+                        <a href="tel:+74951091579" class="footer__item">Тел.: +7 (495) 109-15-79</a>
+                        <span class="footer__item">г. Москва, Очаковское шоссе, д. 36, стр. 2</span>
+                        <a href="mailto:info@rs-leasing.ru" class="footer__item">E-mail: info@rs-leasing.ru</a>
+                    </div>
+                </div>
+                <div class="footer__row-2">
+                    <div class="footer__copy">© 2021 РС Лизинг</div>
+                    <div class="footer__info">
+                        <a href="#" class="footer__link">
+							Пользовательское соглашение
+						</a>
+                        <a href="#" class="footer__link">
+							Политика конфиденциальности
+						</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="callback" class="popup">
+        <div class="popup__body">
+            <div class="popup__content callback">
+                <div class="popup__close">&times;</div>
+                <div class="callback__title">Оставить заявку</div>
+                <div class="callback__text">
+                    Наши специалисты свяжутся с Вами, проконсультируют и ответят на все вопросы!
+                </div>
+                <form id="form-callback-form" action="#" class="callback-form form">
+                    <input type="text" placeholder="Имя, фамилия" name="name" value="" class="lizing-form__textbox callback-form__item req">
+                    <input type="text" placeholder="+7 ___ ___ __ __" name="phone" value="" class="lizing-form__textbox callback-form__item req phone">
+                    <input type="text" placeholder="E-mail" name="mail" value="" class="lizing-form__textbox callback-form__item req mail">
+                    <div class="callback-form__item">
+                        <div class="calc__check">
+                            <input id="form__checkbox-3" id="check" checked type="checkbox" name="pers-data" class="form__check req">
+                            <label for="form__checkbox-3">Согласие на обработку&nbsp;<a href="#">персональных данных</a></label>
+                        </div>
+                        <button data-item="accept" class="calculation-form__btn btn btn-b" type="submit">оставить
+                            заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
